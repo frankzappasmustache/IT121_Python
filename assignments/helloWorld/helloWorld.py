@@ -3,7 +3,7 @@ helloCruelWorld = ['H', 'e', 'l', 'l', 'o', 'C',
                    'r', 'u', 'e', 'l', 'W', 'o', 'r', 'l', 'd']
 
 # Iterate over all items in our list with '' defined as their separator
-# and for each item (x) concatenate into one string object, which is 
+# and for each item (x) concatenate into one string object, which is
 # stored in the variable hello
 hello = ''.join([str(x) for x in helloCruelWorld])
 
