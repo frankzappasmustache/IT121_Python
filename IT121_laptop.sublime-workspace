@@ -11,7 +11,7 @@
 			"file": "assignments/multiplier/multiplier.py",
 			"settings":
 			{
-				"buffer_size": 817,
+				"buffer_size": 816,
 				"line_ending": "Unix"
 			}
 		}
@@ -94,6 +94,7 @@
 	],
 	"file_history":
 	[
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/multiplier/multiplier.py",
 		"/home/frankzappasmustache/code/school/python/hello.py",
 		"/home/frankzappasmustache/Documents/Courses/CS 131 - Introduction to Computer Science C++/canvas_biography.txt",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
@@ -165,22 +166,21 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 817,
+						"buffer_size": 816,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								418,
-								418
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"git_gutter_enable": true,
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Python 3/Python3.tmLanguage"
+							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -203,7 +203,7 @@
 	},
 	"input":
 	{
-		"height": 49.0
+		"height": 51.0
 	},
 	"layout":
 	{
@@ -255,7 +255,7 @@
 	{
 		"height": 144.0
 	},
-	"pinned_build_system": "Packages/Python 3/Python3.sublime-build",
+	"pinned_build_system": "Packages/MagicPython/settings/sublime/Python.sublime-build",
 	"project": "IT121_laptop.sublime-project",
 	"replace":
 	{
@@ -296,8 +296,8 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 177.0,
+	"side_bar_visible": false,
+	"side_bar_width": 324.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
