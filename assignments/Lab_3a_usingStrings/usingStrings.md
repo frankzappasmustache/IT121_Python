@@ -1,4 +1,4 @@
-# **Lab Description - [Lab 3a](https://btc.instructure.com/courses/1997047/assignments/20426458)
+# ** Lab Description - [Lab 3a](https://btc.instructure.com/courses/1997047/assignments/20426458)
 
 ## * Practice formatting and printing strings using the book and sample program examples. Practice using the following:
     * single and double quotes
@@ -11,6 +11,13 @@
 
 
 ## * For credit, write a small program that produces text output using the above techniques. Describe your use of these techniques in your recorded or in-person code walkthrough.
+    - [ ] Single and Double Quotes
+    - [ ] Triple Quotes
+    - [ ] Backslash Escape for Special Characters (e.g. apostrophe)
+    - [ ] Multiple embedded values using %s, %d, and %f
+    - [ ] Multiply Strings
+    - [ ] Removing the newline of print statement with end=""
+    - [ ] Adding newlines to print statements
 
 # **Chapter 3a String Examples
 
