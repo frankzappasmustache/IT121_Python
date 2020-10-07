@@ -7,15 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "assignments/multiplier/multiplier.md",
-			"settings":
-			{
-				"buffer_size": 119,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -91,13 +82,14 @@
 	[
 		"/home/frankzappasmustache/code/courses/IT121_Python",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments",
-		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/helloWorld",
-		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/multiplier"
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings"
 	],
 	"file_history":
 	[
-		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/multiplier/multiplier.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings/usingStrings.md",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings/stringAlong.py",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/multiplier/multiplier.md",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/multiplier/multiplier.py",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/helloWorld/helloWorld.md",
 		"/home/frankzappasmustache/code/school/python/hello.py",
 		"/home/frankzappasmustache/Documents/Courses/CS 131 - Introduction to Computer Science C++/canvas_biography.txt",
@@ -161,38 +153,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "assignments/multiplier/multiplier.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 119,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								29,
-								29
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		},
 		{
@@ -259,7 +221,7 @@
 	{
 		"height": 144.0
 	},
-	"pinned_build_system": "Packages/MagicPython/settings/sublime/Python.sublime-build",
+	"pinned_build_system": "Packages/Python 3/Python3.sublime-build",
 	"project": "IT121_laptop.sublime-project",
 	"replace":
 	{
@@ -293,7 +255,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
@@ -301,7 +263,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 422.0,
+	"side_bar_width": 320.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
