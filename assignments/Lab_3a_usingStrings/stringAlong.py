@@ -9,8 +9,12 @@
     {Description of program here}
 """
 # Import the class 'Fuck' from the library foaas
-from foaas import fuck
+from foaas import Fuck
 
-fuck.linus(name='Bill', from_='Dustin')
+ops = fuck.operations().json
 
-print(fuck.linus(name='Bill', from_='Dustin').url)
+print(ops)
+
+linusRant = fuck.linus(name='Bill', from_='Dustin')
+
+

@@ -9,7 +9,6 @@
     * removing the newline of a print statement with end=""
     * adding newlines to print statements
 
-
 ## * For credit, write a small program that produces text output using the above techniques. Describe your use of these techniques in your recorded or in-person code walkthrough.
     - [ ] Single and Double Quotes
     - [ ] Triple Quotes
@@ -22,6 +21,7 @@
 # **Chapter 3a String Examples
 
 ## * --- Working with strings
+
 ```python
 # A string is a collection of letters. You can enclose a string with
 # matching single quotes (') or double quotes ("). According to python
@@ -30,9 +30,7 @@
 
 myString = "a b c 1 2 3"
 print (myString)
-```
 
-```python
 # Printing a multi-line string won't work with single or double quotes.
 # Use triple quotes which is three single quotes in a row. (''')
 # Try using double or single quotes instead and see the error.
@@ -40,63 +38,47 @@ print (myString)
 joke = '''What is Beethoven doing now?
 De-composing.'''
 print (joke)
-```
 
-```python
 # For special characters you can "escape" the specialness by putting
 # a backslash (\) before the character. Try removing the backslash in
 # the following line to see the error.
 
 joke = 'I\'d tell you a UDP joke but you might not get it.'
 print (joke)
-```
 
-```python
 # To "embed" or insert values or variables into strings use %s to mark the
 # substitution position and follow the string with % and the value to embed.
 
 myFirstName = "Monty"
 print ("My name is %s." % myFirstName)
-```
 
-```python
 # To embed multiple values use multiple %s substitution markers followed
 # by % and a list of values that match position.
 myLastName = "Python"
 print ("My full name is %s %s." % (myFirstName, myLastName) )
-```
 
-```python
 # Sometimes you want to embed numbers.
 # Use %d for integers, %f for floating point.
 pythonCount = 5.5
 print ("There were %d members of %s %s." % (pythonCount, myFirstName, myLastName))
 print ("There were %.2f members of %s %s." % (pythonCount, myFirstName, myLastName))
-```
 
-```python
 # You can multiply strings in a print statement.
 print ("spam " * 2)
 print ("spam " * 2, "sausage and spam")
 print ("spam " * 8, "baked beans", "spam " * 2, "and spam")
-```
 
-```python
 # You can remove the newline character at the end of a print if you want to leave
 # the curser or start the next print statement at the end of the string
 # instead of having it start on the next line.
 print ("spam " * 2, end="")
 print ("sausage and spam")
-```
 
-```python
 # You can add lines by adding \n in your strings.
 print ("I\'ll have ", end="")
 print ("spam " * 6, end="")
 print ("baked beans\n\n")
-```
 
-```python
 # https://docs.python.org/2/library/time.html
 import time
 time.sleep(3)
