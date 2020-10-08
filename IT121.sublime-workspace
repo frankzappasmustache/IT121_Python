@@ -36,16 +36,16 @@
 		"selected_items":
 		[
 			[
-				"conve",
-				"HTML2Text: Convert file"
+				"pack",
+				"Package Control: Install Package"
 			],
 			[
 				"packa",
 				"Package Control: Install Package"
 			],
 			[
-				"pack",
-				"Package Control: Install Package"
+				"conve",
+				"HTML2Text: Convert file"
 			],
 			[
 				"high",
@@ -88,27 +88,32 @@
 	},
 	"expanded_folders":
 	[
-		"/home/frankzappasmustache/code/IT121_Python",
-		"/home/frankzappasmustache/code/IT121_Python/assignments",
-		"/home/frankzappasmustache/code/IT121_Python/assignments/Lab_3a_usingStrings",
-		"/home/frankzappasmustache/.local/lib/python3.8/site-packages",
-		"/home/frankzappasmustache/code/foaas-python"
 	],
 	"file_history":
 	[
+		"/home/frankzappasmustache/code/foaas.py",
+		"/home/frankzappasmustache/code/foaas-python/.travis.yml",
 		"/home/frankzappasmustache/code/foaas-python/foaas.py",
-		"/home/frankzappasmustache/code/foaas-python/README.md",
-		"/home/frankzappasmustache/code/foaas-python/tox.ini",
 		"/home/frankzappasmustache/code/foaas-python/setup.py",
 		"/home/frankzappasmustache/code/foaas-python/tests.py",
+		"/home/frankzappasmustache/code/tests.py",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Python.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/home/frankzappasmustache/code/IT121_Python/IT121_laptop.sublime-project",
+		"/home/frankzappasmustache/code/IT121_Python/IT121.sublime-project",
+		"/home/frankzappasmustache/.local/lib/python3.8/site-packages/nose/failure.py",
+		"/home/frankzappasmustache/code/foaas-test.py",
 		"/home/frankzappasmustache/code/foaas-python/requirements.txt",
 		"/home/frankzappasmustache/code/foaas-python/setup.cfg",
+		"/home/frankzappasmustache/code/foaas-python/tox.ini",
+		"/home/frankzappasmustache/code/IT121_Python/assignments/Lab_3a_usingStrings/usingStrings.md",
+		"/home/frankzappasmustache/code/IT121_Python/assignments/Lab_3a_usingStrings/stringAlong.py",
+		"/home/frankzappasmustache/code/foaas-python/README.md",
 		"/home/frankzappasmustache/code/foaas-python/LICENSE",
 		"/home/frankzappasmustache/code/foaas.html",
 		"/home/frankzappasmustache/code/foaas.html.md",
 		"/home/frankzappasmustache/.local/lib/python3.8/site-packages/foaas.py",
-		"/home/frankzappasmustache/code/IT121_Python/assignments/Lab_3a_usingStrings/stringAlong.py",
-		"/home/frankzappasmustache/code/IT121_Python/assignments/Lab_3a_usingStrings/usingStrings.md",
 		"/home/frankzappasmustache/.local/lib/python3.8/site-packages/foaas-0.2.0.dist-info/metadata.json",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/HTMLPrettify.sublime-settings",
@@ -261,7 +266,7 @@
 	},
 	"output.exec":
 	{
-		"height": 126.0
+		"height": 241.0
 	},
 	"output.find_results":
 	{
@@ -275,7 +280,7 @@
 	"project": "IT121.sublime-project",
 	"replace":
 	{
-		"height": 106.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -305,7 +310,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

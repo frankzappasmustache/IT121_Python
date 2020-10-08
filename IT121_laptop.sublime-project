@@ -12,6 +12,12 @@
 	[
 		{
 			"path": "."
+		},
+		{
+			"path": "/home/frankzappasmustache/code",
+		},
+		{
+			"path": "/home/frankzappasmustache/code/foaas-python"
 		}
 	]
 }
