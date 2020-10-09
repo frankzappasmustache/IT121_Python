@@ -7,6 +7,23 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "assignments/Lab_3a_usingStrings/stringAlong.py",
+			"settings":
+			{
+				"buffer_size": 1208,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/frankzappasmustache/code/foaas-python/foaas.py",
+			"settings":
+			{
+				"buffer_size": 7329,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"build_system_choices":
@@ -35,6 +52,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"ignore",
+				"Gitignore: New gitignore"
+			],
 			[
 				"pack",
 				"Package Control: Install Package"
@@ -88,26 +109,31 @@
 	},
 	"expanded_folders":
 	[
+		"/home/frankzappasmustache/code/IT121_Python",
+		"/home/frankzappasmustache/code/foaas-python"
 	],
 	"file_history":
 	[
-		"/home/frankzappasmustache/code/foaas.py",
-		"/home/frankzappasmustache/code/foaas-python/.travis.yml",
+		"/home/frankzappasmustache/code/IT121_Python/tests/foaas-python/foaas.py",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/frankzappasmustache/code/IT121_Python/assignments/Lab_3a_usingStrings/usingStrings.md",
 		"/home/frankzappasmustache/code/foaas-python/foaas.py",
+		"/home/frankzappasmustache/code/foaas.py",
+		"/home/frankzappasmustache/code/IT121_Python/.gitignore",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/home/frankzappasmustache/code/IT121_Python/tests/foaas.py",
+		"/home/frankzappasmustache/code/IT121_Python/IT121.sublime-project",
+		"/home/frankzappasmustache/code/IT121_Python/IT121_laptop.sublime-project",
+		"/home/frankzappasmustache/code/foaas-python/.travis.yml",
 		"/home/frankzappasmustache/code/foaas-python/setup.py",
 		"/home/frankzappasmustache/code/foaas-python/tests.py",
 		"/home/frankzappasmustache/code/tests.py",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Python.sublime-settings",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
-		"/home/frankzappasmustache/code/IT121_Python/IT121_laptop.sublime-project",
-		"/home/frankzappasmustache/code/IT121_Python/IT121.sublime-project",
 		"/home/frankzappasmustache/.local/lib/python3.8/site-packages/nose/failure.py",
 		"/home/frankzappasmustache/code/foaas-test.py",
 		"/home/frankzappasmustache/code/foaas-python/requirements.txt",
 		"/home/frankzappasmustache/code/foaas-python/setup.cfg",
 		"/home/frankzappasmustache/code/foaas-python/tox.ini",
-		"/home/frankzappasmustache/code/IT121_Python/assignments/Lab_3a_usingStrings/usingStrings.md",
 		"/home/frankzappasmustache/code/IT121_Python/assignments/Lab_3a_usingStrings/stringAlong.py",
 		"/home/frankzappasmustache/code/foaas-python/README.md",
 		"/home/frankzappasmustache/code/foaas-python/LICENSE",
@@ -160,6 +186,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"action",
 			"(`fuck)",
 			"\\(\\w+/{(\\w+)}/{(\\w+)}/{(from)}\\)`",
 			"\\(\\w+/{(\\w+)}/{(from)}/{(\\w+)}\\)`",
@@ -212,13 +239,76 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "assignments/Lab_3a_usingStrings/stringAlong.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1208,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								388,
+								388
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 30.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 1,
+					"file": "/home/frankzappasmustache/code/foaas-python/foaas.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7329,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5444,
+								5444
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2191.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -318,7 +408,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 183.0,
+	"side_bar_width": 246.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
