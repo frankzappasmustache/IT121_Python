@@ -10,13 +10,13 @@
     * adding newlines to print statements
 
 ## * For credit, write a small program that produces text output using the above techniques. Describe your use of these techniques in your recorded or in-person code walkthrough.
-    - [ ] Single and Double Quotes
-    - [ ] Triple Quotes
-    - [ ] Backslash Escape for Special Characters (e.g. apostrophe)
-    - [ ] Multiple embedded values using %s, %d, and %f
-    - [ ] Multiply Strings
-    - [ ] Removing the newline of print statement with end=""
-    - [ ] Adding newlines to print statements
+    - [x] Single and Double Quotes
+    - [x] Triple Quotes
+    - [x] Backslash Escape for Special Characters (e.g. apostrophe)
+    - [x] Multiple embedded values using %s, %d, and %f
+    - [x] Multiply Strings
+    - [x] Removing the newline of print statement with end=""
+    - [x] Adding newlines to print statements
 
 # **Chapter 3a String Examples
 

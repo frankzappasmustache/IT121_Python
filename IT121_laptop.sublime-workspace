@@ -20,16 +20,16 @@
 		"selected_items":
 		[
 			[
+				"pac",
+				"Package Control: Disable Package"
+			],
+			[
 				"packa",
 				"Package Control: Install Package"
 			],
 			[
 				"sublimerepl",
 				"SublimeLinter: Reload SublimeLinter and its Plugins"
-			],
-			[
-				"pac",
-				"Preferences: Package Control Settings – Default"
 			],
 			[
 				"pack",
@@ -67,6 +67,7 @@
 		"height": 329.0,
 		"history":
 		[
+			"sublime.log_commands (True)"
 		]
 	},
 	"distraction_free":
@@ -82,11 +83,22 @@
 	[
 		"/home/frankzappasmustache/code/courses/IT121_Python",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments",
-		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings"
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings",
+		"/home/frankzappasmustache/code",
+		"/home/frankzappasmustache/code/foaas-python"
 	],
 	"file_history":
 	[
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings/string_along.py",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings/usingStrings.md",
+		"/home/frankzappasmustache/code/foaas-python/foaas.py",
+		"/home/frankzappasmustache/code/string_along_backup.py",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Python.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/SublimeREPL.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/sublime_jedi.sublime-settings",
+		"/home/frankzappasmustache/code/courses/IT121_Python/IT121.sublime-workspace",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings/stringAlong.py",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/multiplier/multiplier.md",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/multiplier/multiplier.py",
@@ -100,7 +112,6 @@
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/sublime_lib/.flake8",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Pylinter/Pylinter.sublime-settings",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Pylinter/pylinter.py",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Python.sublime-settings",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Pylinter.sublime-settings",
 		"/home/frankzappasmustache/pylint.rc",
 		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/pubring.kbx",
@@ -191,7 +202,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.394606316884,
 			1.0
 		],
 		"rows":
@@ -220,6 +231,10 @@
 	"output.help":
 	{
 		"height": 144.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
 	},
 	"pinned_build_system": "Packages/Python 3/Python3.sublime-build",
 	"project": "IT121_laptop.sublime-project",
@@ -262,7 +277,7 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 320.0,
 	"status_bar_visible": true,
 	"template_settings":
