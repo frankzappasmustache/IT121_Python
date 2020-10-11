@@ -60,6 +60,7 @@ fuck_goto_shaming = fuck.off_with(behavior="that strict programming dogma.", fro
 # additional newline
 print(fuck_goto_shaming + '\n')
 print("=====================================================================\n")
+
 # assign response value of fuck.caniuse action to var big_fucking_hammer
 # escaping out special characters so they print
 big_fucking_hammer = fuck.caniuse(tool="the \'BFH\' (big fucking hammer)", from_="Dustin")
@@ -70,6 +71,7 @@ big_fucking_hammer = fuck.caniuse(tool="the \'BFH\' (big fucking hammer)", from_
 print(big_fucking_hammer.text, end="")
 print(" (keeper of the BFH)" + '\n')
 print("=====================================================================\n")
+
 # assign response value of fuck.particular action to var
 # recursion_fuck, and multiply our arg string for thing
 # by 5 so we can simulate mild recursion in our print statement
