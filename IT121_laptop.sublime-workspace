@@ -82,15 +82,18 @@
 	"expanded_folders":
 	[
 		"/home/frankzappasmustache/code/courses/IT121_Python",
-		"/home/frankzappasmustache/code/courses/IT121_Python/assignments",
-		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings",
-		"/home/frankzappasmustache/code",
-		"/home/frankzappasmustache/code/foaas-python"
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments"
 	],
 	"file_history":
 	[
-		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings/string_along.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings/fuckstrings.py",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings/usingStrings.md",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_1_helloWorld/helloWorld.py",
+		"/home/frankzappasmustache/code/test.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings/successful_fucking_build.png",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings/string_along.py",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/arithmetic.cpp",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_2_multiplier/multiplier.py",
 		"/home/frankzappasmustache/code/foaas-python/foaas.py",
 		"/home/frankzappasmustache/code/string_along_backup.py",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
@@ -202,7 +205,7 @@
 		"cols":
 		[
 			0.0,
-			0.394606316884,
+			0.491780639499,
 			1.0
 		],
 		"rows":
@@ -277,8 +280,8 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 320.0,
+	"side_bar_visible": true,
+	"side_bar_width": 259.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

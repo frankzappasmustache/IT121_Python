@@ -96,7 +96,8 @@ fuckery = '''\
                   {f}
                      {g}.
                       {h}\
-                    '''.format(a=fuck_this, b=recursion_one, c=recursion_two, d=recursion_three, e=recursion_four, f=recursion_five, g=in_particular, h=my_name)
+                    '''.format(a=fuck_this, b=recursion_one, c=recursion_two,
+                               d=recursion_three, e=recursion_four, f=recursion_five, g=in_particular, h=my_name)
 
 # print multiline string stored in fuckery
 print(fuckery)
