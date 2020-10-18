@@ -36,16 +36,16 @@
 		"selected_items":
 		[
 			[
+				"packa",
+				"Package Control: Enable Package"
+			],
+			[
 				"pack",
-				"Package Control: Install Package"
+				"Package Control: Upgrade/Overwrite All Packages"
 			],
 			[
 				"ignore",
 				"Gitignore: New gitignore"
-			],
-			[
-				"packa",
-				"Package Control: Install Package"
 			],
 			[
 				"conve",
@@ -92,13 +92,14 @@
 	},
 	"expanded_folders":
 	[
-		"/home/frankzappasmustache/code/courses/IT121_Python",
-		"/home/frankzappasmustache/code/courses/IT121_Python/assignments",
-		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings"
 	],
 	"file_history":
 	[
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings/fuckstrings.py",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/PackageSync.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/PackageSync/PackageSync.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Index/LOG",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings/fuckstringsScreencap-2020-10-11_15.53.03.mkv",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings/usingStrings.md",
 		"/home/frankzappasmustache/Documents/ace873ba.txt",
 		"/home/frankzappasmustache/.bashrc",
