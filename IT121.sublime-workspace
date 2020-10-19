@@ -8,28 +8,33 @@
 	"buffers":
 	[
 		{
-			"file": "assignments/Lab_3b_Phone_Book_Look_up /phoneBookLookUp.py",
+			"file": "assignments/Lab_3a_usingStrings/fuckstrings.py",
 			"settings":
 			{
-				"buffer_size": 1199,
-				"encoding": "UTF-8",
+				"buffer_size": 3734,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "assignments/Lab_2_multiplier/multiplier.py",
+			"contents": "Traceback (most recent call last):\n  File \"phoneBookLookUp.py\", line 56, in <module>\n    add_contact()\n  File \"phoneBookLookUp.py\", line 29, in add_contact\n    if name in phone_book:\nNameError: name 'name' is not defined\n\n***Repl Closed***\n",
 			"settings":
 			{
-				"buffer_size": 817,
-				"line_ending": "Unix"
+				"buffer_size": 240,
+				"line_ending": "Unix",
+				"name": "*REPL* [python]",
+				"read_only": true,
+				"scratch": true
 			}
 		},
 		{
-			"file": "assignments/Lab_3b_Phone_Book_Look_up /phoneBookLookUp.md",
+			"contents": "Traceback (most recent call last):\n  File \"phoneBookLookUp.py\", line 59, in <module>\n    add_contact()\n  File \"phoneBookLookUp.py\", line 23, in add_contact\n    if name in phone_book:\nNameError: name 'name' is not defined\n\n***Repl Closed***\n",
 			"settings":
 			{
-				"buffer_size": 1162,
-				"line_ending": "Unix"
+				"buffer_size": 240,
+				"line_ending": "Unix",
+				"name": "*REPL* [python]",
+				"read_only": true,
+				"scratch": true
 			}
 		}
 	],
@@ -119,12 +124,16 @@
 	[
 		"/home/frankzappasmustache/code/courses/IT121_Python",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments",
-		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_2_multiplier",
-		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3b_Phone_Book_Look_up ",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings",
 		"/home/frankzappasmustache/code/foaas-python"
 	],
 	"file_history":
 	[
+		"/home/frankzappasmustache/code/courses/test_files/phoneBookLookUp.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3b_Phone_Book_Look_up /phoneBookLookUp.md",
+		"/home/frankzappasmustache/code/courses/test_files/phone_book_test.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3b_Phone_Book_Look_up /phoneBookLookUp.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_2_multiplier/multiplier.py",
 		"/home/frankzappasmustache/code/examples/Python/pb1.py",
 		"/home/frankzappasmustache/code/courses/IT121_Python/.git/MERGE_MSG",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings/fuckstrings.py",
@@ -269,124 +278,159 @@
 			[
 				{
 					"buffer": 0,
-					"file": "assignments/Lab_3b_Phone_Book_Look_up /phoneBookLookUp.py",
+					"file": "assignments/Lab_3a_usingStrings/fuckstrings.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1199,
+						"buffer_size": 3734,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								859,
-								859
+								2848,
+								2848
 							]
 						],
 						"settings":
 						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".>:",
-									"selector": "source.c++ - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".>:",
-									"selector": "source.c - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".>: ",
-									"selector": "source.objc++ - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".>: ",
-									"selector": "source.objc - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".>: ",
-									"selector": "source.cuda-c++ - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric, meta.interpolated.format.fstring"
-								}
-							],
 							"git_gutter_is_enabled": true,
 							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1008.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 1,
-					"file": "assignments/Lab_2_multiplier/multiplier.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 817,
+						"buffer_size": 240,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17,
-								17
+								221,
+								221
 							]
 						],
 						"settings":
 						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "assignments/Lab_3b_Phone_Book_Look_up /phoneBookLookUp.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1162,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								824,
-								824
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+							"auto_complete": true,
+							"auto_indent": false,
+							"detect_indentation": false,
+							"git_gutter_is_enabled": false,
+							"gutter": false,
+							"history_arrows": true,
+							"indent_subsequent_lines": false,
+							"line_numbers": false,
+							"repl": true,
+							"repl_external_id": "python",
+							"repl_id": "7a17bfe605c3453bb0011b5c3ccaaeaa",
+							"repl_restart_args":
+							{
+								"cmd":
+								[
+									"python",
+									"-u",
+									"$file_basename"
+								],
+								"cwd": "$file_path",
+								"encoding": "utf8",
+								"extend_env":
+								{
+									"PYTHONIOENCODING": "utf-8"
+								},
+								"external_id": "python",
+								"syntax": "Packages/Python/Python.tmLanguage",
+								"type": "subprocess"
+							},
+							"repl_sublime2": false,
+							"smart_indent": false,
+							"spell_check": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 240,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								239,
+								239
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"auto_indent": false,
+							"detect_indentation": false,
+							"git_gutter_is_enabled": false,
+							"gutter": false,
+							"history_arrows": true,
+							"indent_subsequent_lines": false,
+							"line_numbers": false,
+							"repl": true,
+							"repl_external_id": "python",
+							"repl_id": "b730b1a55d7944d29bd42d20d89686bd",
+							"repl_restart_args":
+							{
+								"cmd":
+								[
+									"python",
+									"-u",
+									"$file_basename"
+								],
+								"cwd": "$file_path",
+								"encoding": "utf8",
+								"extend_env":
+								{
+									"PYTHONIOENCODING": "utf-8"
+								},
+								"external_id": "python",
+								"syntax": "Packages/Python/Python.tmLanguage",
+								"type": "subprocess"
+							},
+							"repl_sublime2": false,
+							"smart_indent": false,
+							"spell_check": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -430,6 +474,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.CppBuilder":
+	{
+		"height": 120.0
+	},
 	"output.SublimeLinter":
 	{
 		"height": 0.0
@@ -450,7 +498,7 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"pinned_build_system": "Packages/Python 3/Python3.sublime-build",
 	"project": "IT121.sublime-project",
 	"replace":
 	{
@@ -484,7 +532,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
