@@ -8,29 +8,28 @@
 	"buffers":
 	[
 		{
-			"file": "assignments/Lab_3a_usingStrings/fuckstrings.py",
+			"file": "/home/frankzappasmustache/code/courses/test_files/phoneBookLookUp1.py",
 			"settings":
 			{
-				"buffer_size": 3734,
+				"buffer_size": 2416,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "Traceback (most recent call last):\n  File \"phoneBookLookUp.py\", line 56, in <module>\n    add_contact()\n  File \"phoneBookLookUp.py\", line 29, in add_contact\n    if name in phone_book:\nNameError: name 'name' is not defined\n\n***Repl Closed***\n",
+			"contents": ">>> Account = namedtuple('Account', ['type', 'balance'], defaults=[0])\n>>> Account._field_defaults\n{'balance': 0}\n>>> Account('premium')\nAccount(type='premium', balance=0)",
 			"settings":
 			{
-				"buffer_size": 240,
+				"buffer_size": 171,
 				"line_ending": "Unix",
-				"name": "*REPL* [python]",
-				"read_only": true,
-				"scratch": true
+				"name": ">>> Account = namedtuple('Account', ['type', 'bala"
 			}
 		},
 		{
-			"contents": "Traceback (most recent call last):\n  File \"phoneBookLookUp.py\", line 59, in <module>\n    add_contact()\n  File \"phoneBookLookUp.py\", line 23, in add_contact\n    if name in phone_book:\nNameError: name 'name' is not defined\n\n***Repl Closed***\n",
+			"contents": "Please enter a new name for this contact:\nDustin\nname added\nEnter a new email address for this contact:\nd@d.com\nemail added\nEnter a new phone number for this contact:\n444-444-4444\nnumber added\nTraceback (most recent call last):\n  File \"phoneBookLookUp1.py\", line 84, in <module>\n    add_contact()\n  File \"phoneBookLookUp1.py\", line 40, in add_contact\n    new_cname(str)\nTypeError: 'str' object is not callable\n\n***Repl Closed***\n",
 			"settings":
 			{
-				"buffer_size": 240,
+				"buffer_size": 429,
 				"line_ending": "Unix",
 				"name": "*REPL* [python]",
 				"read_only": true,
@@ -124,19 +123,26 @@
 	[
 		"/home/frankzappasmustache/code/courses/IT121_Python",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_2_multiplier",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3b_Phone_Book_Look_up ",
 		"/home/frankzappasmustache/code/foaas-python"
 	],
 	"file_history":
 	[
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_2_multiplier/multiplier.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_2_multiplier/multiplier.md",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings/fuckstrings.py",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Python Flake8 Lint/Flake8Lint.sublime-settings",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3b_Phone_Book_Look_up /phoneBookLookUp.py",
+		"/home/frankzappasmustache/code/courses/test_files/phoneBookLookUp1.py",
 		"/home/frankzappasmustache/code/courses/test_files/phoneBookLookUp.py",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3b_Phone_Book_Look_up /phoneBookLookUp.md",
 		"/home/frankzappasmustache/code/courses/test_files/phone_book_test.py",
-		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3b_Phone_Book_Look_up /phoneBookLookUp.py",
-		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_2_multiplier/multiplier.py",
 		"/home/frankzappasmustache/code/examples/Python/pb1.py",
 		"/home/frankzappasmustache/code/courses/IT121_Python/.git/MERGE_MSG",
-		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings/fuckstrings.py",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/PackageSync.sublime-settings",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/PackageSync/PackageSync.sublime-settings",
 		"/home/frankzappasmustache/.config/sublime-text-3/Index/LOG",
@@ -151,11 +157,9 @@
 		"/home/frankzappasmustache/code/foaas-python/foaas.py",
 		"/home/frankzappasmustache/code/stringAlong_backup.py",
 		"/home/frankzappasmustache/code/IT121_Python/tests/foaas-python/foaas.py",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
 		"/home/frankzappasmustache/code/IT121_Python/assignments/Lab_3a_usingStrings/usingStrings.md",
 		"/home/frankzappasmustache/code/foaas.py",
 		"/home/frankzappasmustache/code/IT121_Python/.gitignore",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
 		"/home/frankzappasmustache/code/IT121_Python/tests/foaas.py",
 		"/home/frankzappasmustache/code/IT121_Python/IT121.sublime-project",
 		"/home/frankzappasmustache/code/IT121_Python/IT121_laptop.sublime-project",
@@ -200,7 +204,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 66.0
 	},
 	"find_in_files":
 	{
@@ -278,30 +282,58 @@
 			[
 				{
 					"buffer": 0,
-					"file": "assignments/Lab_3a_usingStrings/fuckstrings.py",
+					"file": "/home/frankzappasmustache/code/courses/test_files/phoneBookLookUp1.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3734,
+						"buffer_size": 2416,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2848,
-								2848
+								627,
+								627
 							]
 						],
 						"settings":
 						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".>:",
+									"selector": "source.c++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>:",
+									"selector": "source.c - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.cuda-c++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric, meta.interpolated.format.fstring"
+								}
+							],
 							"git_gutter_is_enabled": true,
 							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1008.0,
+						"translation.y": 126.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -318,53 +350,22 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 240,
+						"buffer_size": 171,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								221,
-								221
+								136,
+								136
 							]
 						],
 						"settings":
 						{
-							"auto_complete": true,
-							"auto_indent": false,
-							"detect_indentation": false,
+							"auto_name": ">>> Account = namedtuple('Account', ['type', 'bala",
 							"git_gutter_is_enabled": false,
-							"gutter": false,
-							"history_arrows": true,
-							"indent_subsequent_lines": false,
-							"line_numbers": false,
-							"repl": true,
-							"repl_external_id": "python",
-							"repl_id": "7a17bfe605c3453bb0011b5c3ccaaeaa",
-							"repl_restart_args":
-							{
-								"cmd":
-								[
-									"python",
-									"-u",
-									"$file_basename"
-								],
-								"cwd": "$file_path",
-								"encoding": "utf8",
-								"extend_env":
-								{
-									"PYTHONIOENCODING": "utf-8"
-								},
-								"external_id": "python",
-								"syntax": "Packages/Python/Python.tmLanguage",
-								"type": "subprocess"
-							},
-							"repl_sublime2": false,
-							"smart_indent": false,
-							"spell_check": false,
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -378,20 +379,47 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 240,
+						"buffer_size": 429,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								239,
-								239
+								385,
+								385
 							]
 						],
 						"settings":
 						{
 							"auto_complete": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".>:",
+									"selector": "source.c++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>:",
+									"selector": "source.c - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.cuda-c++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric, meta.interpolated.format.fstring"
+								}
+							],
 							"auto_indent": false,
 							"detect_indentation": false,
 							"git_gutter_is_enabled": false,
@@ -401,7 +429,7 @@
 							"line_numbers": false,
 							"repl": true,
 							"repl_external_id": "python",
-							"repl_id": "b730b1a55d7944d29bd42d20d89686bd",
+							"repl_id": "8c12ebc072464ad4b45c3d8decfbb3ca",
 							"repl_restart_args":
 							{
 								"cmd":
@@ -464,7 +492,7 @@
 		"cols":
 		[
 			0.0,
-			0.485677083333,
+			0.570849512754,
 			1.0
 		],
 		"rows":
