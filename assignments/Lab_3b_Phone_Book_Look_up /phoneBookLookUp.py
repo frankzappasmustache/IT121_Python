@@ -87,5 +87,5 @@ add_contact()
 print(phone_book)
 
 # ask user to search for contact by name/email/number using the
-# find_name_number_email function
+# find_name_number_email function setting our data var to phone_book
 find_name_number_email(data=phone_book)
