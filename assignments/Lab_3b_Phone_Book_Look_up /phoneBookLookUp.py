@@ -1,13 +1,13 @@
 """
     Project Name: IT121_Python
     Sub-project: Labs
-    File Name: fuckstrings.py
+    File Name: phoneBookLookUp.py
     Author: Dustin McClure
-    Lab: Lab 3a - Using Strings
-    Modified 1: Date0/10/2020
+    Lab: Lab 3b Phone Book Look-up
+    Modified Date: 10/21/2020
 
-    Python Program that asks for name/phone number pairs,
-    adds them to a map, and then provides a lookup function for the user to
+    Python Program that asks for name/phone number/email,
+    adds them to a dict, and then provides a lookup function for the user to
     look this info up.
 """
 # create an empty dictionary called phone_book where we will store our contacts
@@ -63,12 +63,11 @@ def add_contact():
             }
 
     # update our main phone book (dictionary phone_book) with the new phone
-    # book to avoid writing over the values as we would with a list that we
-    # appended to the phone book dict
+    # book
     phone_book.update(phone_book1)
 
 # function def to search by phone number/name/email and then print values
-def find_name_number_email(data):
+def find_name_number_email():
 
     # request input from user
     search = input("Please enter the name, email, or phone number you would like to look up: ")
@@ -88,4 +87,4 @@ print(phone_book)
 
 # ask user to search for contact by name/email/number using the
 # find_name_number_email function setting our data var to phone_book
-find_name_number_email(data=phone_book)
+find_name_number_email()
