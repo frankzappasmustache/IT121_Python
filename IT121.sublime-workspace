@@ -8,7 +8,7 @@
 	"buffers":
 	[
 		{
-			"file": "/home/frankzappasmustache/code/courses/test_files/phoneBookLookUp1.py",
+			"file": "phoneBookLookUp1.py",
 			"settings":
 			{
 				"buffer_size": 2416,
@@ -204,7 +204,7 @@
 	],
 	"find":
 	{
-		"height": 66.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -282,7 +282,7 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/home/frankzappasmustache/code/courses/test_files/phoneBookLookUp1.py",
+					"file": "phoneBookLookUp1.py",
 					"semi_transient": false,
 					"settings":
 					{
@@ -293,8 +293,8 @@
 						"selection":
 						[
 							[
-								627,
-								627
+								350,
+								350
 							]
 						],
 						"settings":
