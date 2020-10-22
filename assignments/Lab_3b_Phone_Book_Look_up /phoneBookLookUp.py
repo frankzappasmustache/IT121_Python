@@ -10,10 +10,14 @@
     adds them to a map, and then provides a lookup function for the user to
     look this info up.
 """
-
+# create an empty dictionary called phone_book where we will store our contacts
 phone_book = {}
 
+# function definition for adding contact
 def add_contact():
+
+    # request input for the three contacts and output the information
+    # entered.
     name = input("Please enter a contact name for this new contact: ")
     email = input("Please enter an email address for this new contact: ")
     phone = input("Please enter a phone number for this new contact: ")
@@ -39,32 +43,49 @@ def add_contact():
         Phone Number: %s
         ''' % (name3, email3, phone3))
 
+    # store this information in a new nested dictionary called phone_book1
     phone_book1 = {
-    0: [
-    name,
-    email,
-    phone
-    ],
-    1: [
-    name2,
-    email2,
-    phone2
-    ],
-    2: [
-    name3,
-    email3,
-    phone3
-    ]
-    }
+                0: [
+                   name,
+                   email,
+                   phone
+                ],
+                1: [
+                   name2,
+                   email2,
+                   phone2
+                ],
+                2: [
+                   name3,
+                   email3,
+                   phone3
+                ]
+            }
 
+    # update our main phone book (dictionary phone_book) with the new phone
+    # book to avoid writing over the values as we would with a list that we
+    # appended to the phone book dict
     phone_book.update(phone_book1)
 
+# function def to search by phone number/name/email and then print values
 def find_name_number_email(data):
+
+    # request input from user
     search = input("Please enter the name, email, or phone number you would like to look up: ")
+
+    # iterate through values in phone book dict and store result in var
+    # values if input is found in values
     values = [value for value in phone_book.values() if search in value]
+
+    # print the values for the contact if they are found
     print(values)
 
-
+# call function add_contact
 add_contact()
+
+# print phone book updated with newly entered contacts
 print(phone_book)
+
+# ask user to search for contact by name/email/number using the
+# find_name_number_email function
 find_name_number_email(data=phone_book)
