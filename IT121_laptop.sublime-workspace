@@ -7,25 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "assignments/Lab_3b_Phone_Book_Look_up /phoneBookLookUp.py",
-			"settings":
-			{
-				"buffer_size": 0,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assignments/Lab_3b_Phone_Book_Look_up /phoneBookLookUp.md",
-			"settings":
-			{
-				"buffer_size": 1162,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "Write a python program that asks for three name an"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -40,7 +21,7 @@
 		[
 			[
 				"pack",
-				"Package Control: Install Package"
+				"Package Control: Disable Package"
 			],
 			[
 				"pac",
@@ -103,15 +84,26 @@
 		"/home/frankzappasmustache/code/courses/IT121_Python",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings",
-		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3b_Phone_Book_Look_up "
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_4_turtleInitials"
 	],
 	"file_history":
 	[
-		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings/usingStrings.md",
-		"/home/frankzappasmustache/code/foaas-python/foaas.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_4_turtleInitials/turtleInitials.md",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings/fuckstrings.py",
-		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_1_helloWorld/helloWorld.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_4_turtleInitials/turtleInitials.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings/usingStrings.md",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3b_Phone_Book_Look_up /phoneBookLookUp.py",
+		"/home/frankzappasmustache/code/snippets2.py",
+		"/home/frankzappasmustache/code/snippets1.py",
+		"/home/frankzappasmustache/code/phoneBookLookUp1.py",
+		"/home/frankzappasmustache/code/phoneBookLookUp1_backup.py",
+		"/home/frankzappasmustache/code/phoneBookLookUp_reference.py",
+		"/home/frankzappasmustache/code/pblookup.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/phoneBookLookUp1.py",
 		"/home/frankzappasmustache/code/test.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3b_Phone_Book_Look_up /phoneBookLookUp.md",
+		"/home/frankzappasmustache/code/foaas-python/foaas.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_1_helloWorld/helloWorld.py",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings/successful_fucking_build.png",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings/string_along.py",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/arithmetic.cpp",
@@ -155,7 +147,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 29.0
 	},
 	"find_in_files":
 	{
@@ -169,14 +161,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"turtle",
+			"initials",
 			"'"
 		],
 		"highlight": true,
-		"in_selection": true,
+		"in_selection": false,
 		"preserve_case": false,
 		"regex": true,
 		"replace_history":
 		[
+			"t",
 			""
 		],
 		"reverse": false,
@@ -193,74 +188,14 @@
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "assignments/Lab_3b_Phone_Book_Look_up /phoneBookLookUp.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "assignments/Lab_3b_Phone_Book_Look_up /phoneBookLookUp.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1162,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1162,
-								1162
-							]
-						],
-						"settings":
-						{
-							"auto_name": "Write a python program that asks for three name an",
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 29.0
 	},
 	"input":
 	{
@@ -286,7 +221,7 @@
 		"cols":
 		[
 			0.0,
-			0.491780639499,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -296,6 +231,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.CppBuilder":
+	{
+		"height": 138.0
+	},
 	"output.SublimeLinter":
 	{
 		"height": 0.0
@@ -328,7 +267,7 @@
 	"project": "IT121_laptop.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 106.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -365,7 +304,7 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 259.0,
 	"status_bar_visible": true,
 	"template_settings":
