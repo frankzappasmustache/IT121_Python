@@ -1,17 +1,13 @@
 {
-	"build_systems":
-	[
-		{
-			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
-			"name": "Anaconda Python Builder",
-			"selector": "source.python",
-			"shell_cmd": "\"python\" -u \"$file\""
-		}
-	],
 	"folders":
 	[
 		{
+			"name": "IT121 Python",
 			"path": "/home/frankzappasmustache/code/courses/IT121_Python"
+		},
+		{
+			"name": "Tests & Examples",
+			"path": "/home/frankzappasmustache/code/courses/tests_examples"
 		}
 	]
 }

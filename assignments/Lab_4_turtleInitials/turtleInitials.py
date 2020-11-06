@@ -1,9 +1,9 @@
 """
     Project Name: IT121_Python
     Sub-project: Labs
-    File Name: tt.py
+    File Name: turtleInitials.py
     Author: Dustin McClure
-    Lab: Lab 4 - t
+    Lab: Lab 4 - Turtle Initials
     Modified Date: 10/23/2020
 
     Just drawing my initials with *queue Dana Carvey* turtle.
