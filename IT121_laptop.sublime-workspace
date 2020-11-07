@@ -7,14 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "assignments/Lab_5_Shape_Sketcher_AND_Tax_Calculator/shapeSketcher.py",
-			"settings":
-			{
-				"buffer_size": 428,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -96,6 +88,7 @@
 	],
 	"file_history":
 	[
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_5_Shape_Sketcher_AND_Tax_Calculator/shapeSketcher.py",
 		"/home/frankzappasmustache/code/courses/IT121_Python/IT121_laptop.sublime-project",
 		"/home/frankzappasmustache/.bashrc",
 		"/etc/pulse/default.pa",
@@ -104,7 +97,6 @@
 		"/etc/pulse/client.conf",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_4_turtleInitials/turtleInitials.py",
 		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran Python IT121 Lab 5 Shape Drawer & Tax Calculator.py",
-		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_5_Shape_Sketcher_AND_Tax_Calculator/shapeSketcher.py",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_5_Shape_Sketcher_AND_Tax_Calculator/taxCalculator.py",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Midterm_Exam/midterm.md",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_5_Shape_Sketcher_AND_Tax_Calculator/shapeSketcher.md",
@@ -203,47 +195,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "assignments/Lab_5_Shape_Sketcher_AND_Tax_Calculator/shapeSketcher.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 428,
-						"regions":
-						{
-							"better_bookmarks":
-							{
-								"flags": 144,
-								"icon": "Packages/Theme - Default/common/bookmark.png",
-								"regions":
-								[
-								],
-								"scope": "string"
-							}
-						},
-						"selection":
-						[
-							[
-								337,
-								337
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		},
 		{
