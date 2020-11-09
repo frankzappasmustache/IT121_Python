@@ -9,7 +9,7 @@
 """
 
 # create dictionary with k,v pairs representing classes/hours
-classHrs = {"class1":0, "class2":0, "class3":0}
+classHrs = {"class1": 0, "class2": 0, "class3": 0}
 
 # request input in the form of an integer for how many hours a day the
 # student should be studying, store that integer in the associated
@@ -53,7 +53,7 @@ currentHours = int(input('''
 idealStudyHours = (classHrs["class1"] + classHrs["class2"] + classHrs["class3"]) / daysOfStudy
 
 # print the average number of hours they should study each day to a scale of 1
-# decimal, using string substitution to sub the idealStudyHours variable
+# decimal, using substitution to sub the idealStudyHours variable
 # into the string
 print("You should spend, on average, %.1f hours studying each day" %
     idealStudyHours)
