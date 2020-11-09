@@ -7,6 +7,49 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "assignments/Lab_5_Shape_Sketcher_AND_Tax_Calculator/shapeSketcher.py",
+			"settings":
+			{
+				"buffer_size": 6456,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran Python IT121 Lab 5 Shape Drawer & Tax Calculator.py",
+			"settings":
+			{
+				"buffer_size": 7866,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "    t.bgcolor(\"cyan\")\n    t.color(\"magenta\" , \"yellow\")\n    t.speed(10)\n    t.pensize(5)\n    t.begin_fill()\n    t.circle(200)\n    t.end_fill()",
+			"settings":
+			{
+				"buffer_size": 142,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "'red_orange': '#fb4934', \n'key_lime_pie': '#b8bb26', \n'lightning_yellow': '#fabd2f', \n'sea_nymph': '#83a598', \n'can_can': '#d3869b', \n'olivine': '#8ec07c', \n'pumpkin': '#fe8019', \n'thunderbird': '#cc241d', \n'hacienda': '#98971a', \n'golden_grass': '#d79921', \n'faded_jade': '#458588', \n'tapestry': '#b16286', \n'highland': '#689d6a', \n'christine': '#d65d0e', \n'sangria': '#9d0006', \n'spicy_mustard': '#79740e', \n'reno_sand': '#b57614', \n'atoll': '#076678', \n'cannon_pink': '#8f3f71', \n'goblin': '#427b58', \n'fire': '#af3a03'",
+			"settings":
+			{
+				"buffer_size": 522,
+				"line_ending": "Unix",
+				"name": "'red_orange': '#fb4934',"
+			}
+		},
+		{
+			"contents": "red_orange:\nkey_lime_pie:\nlightning_yellow:\nsea_nymph:\ncan_can:\nolivine:\npumpkin:\nthunderbird:\nhacienda:\ngolden_grass:\nfaded_jade:\ntapestry:\nhighland:\nchristine:\nsangria:\nspicy_mustard:\nreno_sand:\natoll:\ncannon_pink:\ngoblin:\nfire:",
+			"settings":
+			{
+				"buffer_size": 230,
+				"line_ending": "Unix",
+				"name": "red_orange:"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -19,6 +62,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"pretty",
+				"Pretty Print: Format (Pretty Print) Python code"
+			],
 			[
 				"stack",
 				"Search Stack Overflow for a build error"
@@ -85,9 +132,20 @@
 	},
 	"expanded_folders":
 	[
+		"/home/frankzappasmustache/code/courses/IT121_Python",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3b_Phone_Book_Look_up ",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_4_turtleInitials",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_5_Shape_Sketcher_AND_Tax_Calculator"
 	],
 	"file_history":
 	[
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Pylinter.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Pylinter/Pylinter.sublime-settings",
+		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran Python IT121 Lab 5 Shape Drawer & Tax Calculator.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_5_Shape_Sketcher_AND_Tax_Calculator/taxCalculator.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_5_Shape_Sketcher_AND_Tax_Calculator/taxCalculator.md",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_5_Shape_Sketcher_AND_Tax_Calculator/shapeSketcher.md",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_5_Shape_Sketcher_AND_Tax_Calculator/shapeSketcher.py",
 		"/home/frankzappasmustache/code/courses/IT121_Python/IT121_laptop.sublime-project",
 		"/home/frankzappasmustache/.bashrc",
@@ -96,11 +154,7 @@
 		"/etc/pulse/daemon.conf",
 		"/etc/pulse/client.conf",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_4_turtleInitials/turtleInitials.py",
-		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran Python IT121 Lab 5 Shape Drawer & Tax Calculator.py",
-		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_5_Shape_Sketcher_AND_Tax_Calculator/taxCalculator.py",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Midterm_Exam/midterm.md",
-		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_5_Shape_Sketcher_AND_Tax_Calculator/shapeSketcher.md",
-		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_5_Shape_Sketcher_AND_Tax_Calculator/taxCalculator.md",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Midterm_Exam/midterm.py",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_4_turtleInitials/turtleInitials.md",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings/fuckstrings.py",
@@ -139,9 +193,7 @@
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/pyyaml/st3/yaml/__init__.py",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/sublime_lib/.flake8",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Pylinter/Pylinter.sublime-settings",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Pylinter/pylinter.py",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Pylinter.sublime-settings",
 		"/home/frankzappasmustache/pylint.rc",
 		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/pubring.kbx",
 		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/.Xdefaults",
@@ -173,6 +225,26 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"fill,",
+			"pen_c",
+			"fill_color",
+			"pen_color",
+			"'",
+			"'.*':",
+			"',\\s\\n",
+			"',\\s",
+			"',\\s\\n",
+			"',\\s",
+			"(:\\s)(#.{6})",
+			"(\\w+)\\s'(#.{6})'\\n",
+			"(\\w+)\\s('#.{6}')\\n",
+			"('#.{6}')",
+			"\\s(\\n)",
+			"\\s",
+			"(\\w)\\s",
+			"(\\w+)\\s",
+			"gb.(\\w+)\\s+=\\s\\[('#.{6}')",
+			"gb.\\w+\\s+=\\s\\['#.{6}'",
 			"turtle",
 			"initials",
 			"'"
@@ -183,6 +255,22 @@
 		"regex": true,
 		"replace_history":
 		[
+			"fill_color,",
+			"pen_color",
+			"fill",
+			"pen_c",
+			"",
+			"', ",
+			"', \n",
+			"', ",
+			"', \n",
+			"\\1'\\2'",
+			"'\\1': \\2, ",
+			"colors = {'\\1': \\2, }",
+			"\\1",
+			"",
+			"\\1",
+			"\\1 \\2",
 			"t",
 			""
 		],
@@ -195,13 +283,291 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "assignments/Lab_5_Shape_Sketcher_AND_Tax_Calculator/shapeSketcher.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6456,
+						"regions":
+						{
+							"better_bookmarks":
+							{
+								"flags": 144,
+								"icon": "Packages/Theme - Default/common/bookmark.png",
+								"regions":
+								[
+								],
+								"scope": "string"
+							}
+						},
+						"selection":
+						[
+							[
+								6127,
+								6127
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".>:",
+									"selector": "source.c++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>:",
+									"selector": "source.c - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.cuda-c++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric, meta.interpolated.format.fstring"
+								}
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2263.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran Python IT121 Lab 5 Shape Drawer & Tax Calculator.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7866,
+						"regions":
+						{
+							"better_bookmarks":
+							{
+								"flags": 144,
+								"icon": "Packages/Theme - Default/common/bookmark.png",
+								"regions":
+								[
+								],
+								"scope": "string"
+							}
+						},
+						"selection":
+						[
+							[
+								939,
+								939
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 142,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								142,
+								142
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_5_Shape_Sketcher_AND_Tax_Calculator",
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 522,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13,
+								13
+							],
+							[
+								41,
+								41
+							],
+							[
+								73,
+								73
+							],
+							[
+								98,
+								98
+							],
+							[
+								121,
+								121
+							],
+							[
+								144,
+								144
+							],
+							[
+								167,
+								167
+							],
+							[
+								194,
+								194
+							],
+							[
+								218,
+								218
+							],
+							[
+								246,
+								246
+							],
+							[
+								272,
+								272
+							],
+							[
+								296,
+								296
+							],
+							[
+								320,
+								320
+							],
+							[
+								345,
+								345
+							],
+							[
+								368,
+								368
+							],
+							[
+								397,
+								397
+							],
+							[
+								422,
+								422
+							],
+							[
+								443,
+								443
+							],
+							[
+								470,
+								470
+							],
+							[
+								492,
+								492
+							],
+							[
+								512,
+								512
+							]
+						],
+						"settings":
+						{
+							"auto_name": "'red_orange': '#fb4934',",
+							"default_dir": "/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_5_Shape_Sketcher_AND_Tax_Calculator",
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 230,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								230,
+								230
+							]
+						],
+						"settings":
+						{
+							"auto_name": "red_orange:",
+							"default_dir": "/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_5_Shape_Sketcher_AND_Tax_Calculator",
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -247,6 +613,10 @@
 	{
 		"height": 138.0
 	},
+	"output.Debugger":
+	{
+		"height": 266.0
+	},
 	"output.ECC":
 	{
 		"height": 144.0
@@ -283,7 +653,7 @@
 	"project": "IT121_laptop.sublime-project",
 	"replace":
 	{
-		"height": 106.0
+		"height": 92.0
 	},
 	"save_all_on_build": true,
 	"select_file":
