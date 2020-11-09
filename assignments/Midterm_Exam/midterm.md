@@ -12,27 +12,26 @@
 
 ## Ask the user how many hours they should spend on each class. Put each of these answers in the appropriate place in the classHrs map. It could look something like this, but feel free to use your own words:**
 
+    *How many hours should you spend in a week on your first class? (User enters a number)
 
-#    *How many hours should you spend in a week on your first class? (User enters a number)
+   *How many hours should you spend in a week on your second class? (User enters a number)
 
-#    *How many hours should you spend in a week on your second class? (User enters a number)
+    *How many hours should you spend in a week on your third class? (User enters a number)
 
-#    *How many hours should you spend in a week on your third class? (User enters a number)
+    *Ask the user how many days per week they plan to study and put the answer in a variable.
 
-#    *Ask the user how many days per week they plan to study and put the answer in a variable.
+    *Ask the user how many hours they are actually studying each day and put that answer in a variable.
 
-#    *Ask the user how many hours they are actually studying each day and put that answer in a variable.
+    *Add up all the hours in the map and divide the total by the number of days per week that the user plans to study.
 
-#    *Add up all the hours in the map and divide the total by the number of days per week that the user plans to study.
-
-#    *Report out your results to one decimal place. It could look something like this:
+    *Report out your results to one decimal place. It could look something like this:
         *You should spend an average of 2.7 hours per day studying.
 
 ## If the number of hours per day actually studying is greater than the number of hours per day you should be studying then say something like this:
-#    *You are probably studying enough.
+    *You are probably studying enough.
 
 ## If the number of yours per day actually studying is less than the number of hours per day you should be studying then say something like this:
-#    *You should probably study some more each day.
+    *You should probably study some more each day.
 
 
 
@@ -46,20 +45,20 @@
 
 ## A lot of the Research and Design can be done up front. You can ask yourself the following questions and think about them to build a plan before you start coding. In fact, many programmers use the answers to these questions as the comments in their code. They start with the comments, and then write the code.:
 
-#    *What is the input?
-#    *How will I store the data?
-#    *What will the output be?
-#    *How do I transform the input into the output? Will I need to make decisions (IF)?
-#    *Will I need to perform calculations or conversions?
+    *What is the input?
+    *How will I store the data?
+    *What will the output be?
+    *How do I transform the input into the output? Will I need to make decisions (IF)?
+    *Will I need to perform calculations or conversions?
 
 ## After you have a plan the Code -> Test cycle should be done over and over in little chunks. Don't code it all at once. (Agile development.)
 
 ### ***Start with the most simple code. Get that working. Then add a little more functionality. Get that working. Build your program in simple, easy steps from a simple easy start so you build a strong foundation and know when you hit an error.***
 
 # Two analogies are sometimes helpful:
-#    1. - Adding code to a program is like adding salt to food. You want to do it a little at a time so you don't ruin it.
+     1. - Adding code to a program is like adding salt to food. You want to do it a little at a time so you don't ruin it.
 
-#    2. - Building a program is like building a house.
+     2. - Building a program is like building a house.
 
 ## Put thought into the design.
 ## Start with a strong and simple foundation.
