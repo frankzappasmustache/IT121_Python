@@ -14,7 +14,7 @@
 
     *How many hours should you spend in a week on your first class? (User enters a number)
 
-   *How many hours should you spend in a week on your second class? (User enters a number)
+    *How many hours should you spend in a week on your second class? (User enters a number)
 
     *How many hours should you spend in a week on your third class? (User enters a number)
 
