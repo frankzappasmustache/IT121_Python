@@ -4,7 +4,7 @@
     File Name: shapeSketcher.py
     Author: Dustin McClure
     Lab: Lab 5a - Shape Sketcher
-    Modified Date: 11/05/2020
+    Modified Date: 11/09/2020
 
     Python Shape Sketcher Program
 """
@@ -197,7 +197,7 @@ def quit():
 # function def to draw shapes
 def draw_shape():
 
-    # define index of commands that correspond to the different functions
+    # define index of commands that correspond to the different function
     # defs for our shapes, and the function def to quit the program
     COMMANDS = [rect, circle, triangle, hexagon, quit]
 
