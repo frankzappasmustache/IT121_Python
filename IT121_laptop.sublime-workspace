@@ -97,14 +97,13 @@
 	},
 	"expanded_folders":
 	[
-		"/home/frankzappasmustache/code/courses/IT121_Python"
 	],
 	"file_history":
 	[
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_5_Shape_Sketcher_AND_Tax_Calculator/shapeSketcher.py",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Midterm_Exam/midterm.py",
 		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran Python IT121 Lab MIDTERM EXAM Study Calculator.py",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings/fuckstrings.py",
-		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_5_Shape_Sketcher_AND_Tax_Calculator/shapeSketcher.py",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Midterm_Exam/midterm.md",
 		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran Python IT121 Lab 5 Shape Drawer & Tax Calculator.py",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_4_turtleInitials/turtleInitials.py",
@@ -274,11 +273,6 @@
 			"sheets":
 			[
 			]
-		},
-		{
-			"sheets":
-			[
-			]
 		}
 	],
 	"incremental_find":
@@ -298,18 +292,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.563919335259,
 			1.0
 		],
 		"rows":
@@ -401,7 +388,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 259.0,
+	"side_bar_width": 166.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
