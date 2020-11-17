@@ -7,10 +7,76 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "assignments/Lab_6_Multiple_Shape_Sketcher/multipleShapeSketcher.py",
+			"settings":
+			{
+				"buffer_size": 11043,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran Python IT121 Lab 6a Multiple Shape Drawer.py",
+			"settings":
+			{
+				"buffer_size": 2159,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Traceback (most recent call last):\n  File \"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_6_Multiple_Shape_Sketcher/multipleShapeSketcher.py\", line 303, in <module>\n    draw_shape()\n  File \"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_6_Multiple_Shape_Sketcher/multipleShapeSketcher.py\", line 226, in draw_shape\n    shapeCount = int(screen.numinput(\nTypeError: numinput() got an unexpected keyword argument 'promp'\n\n***Repl Closed***\n",
+			"settings":
+			{
+				"buffer_size": 478,
+				"line_ending": "Unix",
+				"name": "*REPL* [python]",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "Traceback (most recent call last):\n  File \"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_6_Multiple_Shape_Sketcher/multipleShapeSketcher.py\", line 303, in <module>\n    draw_shape()\n  File \"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_6_Multiple_Shape_Sketcher/multipleShapeSketcher.py\", line 294, in draw_shape\n    COMMANDS[shape, shapeCount](\nTypeError: list indices must be integers or slices, not tuple\n\n***Repl Closed***\n",
+			"settings":
+			{
+				"buffer_size": 470,
+				"line_ending": "Unix",
+				"name": "*REPL* [python]",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "Traceback (most recent call last):\n  File \"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_6_Multiple_Shape_Sketcher/multipleShapeSketcher.py\", line 303, in <module>\n    draw_shape()\n  File \"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_6_Multiple_Shape_Sketcher/multipleShapeSketcher.py\", line 284, in draw_shape\n    COMMANDS[shape, x](\nTypeError: list indices must be integers or slices, not tuple\n\n***Repl Closed***\n",
+			"settings":
+			{
+				"buffer_size": 461,
+				"line_ending": "Unix",
+				"name": "*REPL* [python]",
+				"read_only": true,
+				"scratch": true
+			}
+		}
 	],
-	"build_system": "",
+	"build_system": "Packages/MagicPython/settings/sublime/Python.sublime-build",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Packages/MagicPython/settings/sublime/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/MagicPython/settings/sublime/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/MagicPython/settings/sublime/Python.sublime-build",
+				""
+			]
+		]
 	],
 	"build_varint": "",
 	"command_palette":
@@ -20,8 +86,12 @@
 		"selected_items":
 		[
 			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
 				"py",
-				"Pretty Print: Format (Pretty Print) Python code"
+				"PyYapf: Format Document"
 			],
 			[
 				"pack",
@@ -97,9 +167,15 @@
 	},
 	"expanded_folders":
 	[
+		"/home/frankzappasmustache/code/courses/IT121_Python",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_5_Shape_Sketcher_AND_Tax_Calculator",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_6_Multiple_Shape_Sketcher"
 	],
 	"file_history":
 	[
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_6_Multiple_Shape_Sketcher/multipleShapeSketcher.md",
+		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran Python IT121 Lab 6a Multiple Shape Drawer.py",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_5_Shape_Sketcher_AND_Tax_Calculator/shapeSketcher.py",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Midterm_Exam/midterm.py",
 		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran Python IT121 Lab MIDTERM EXAM Study Calculator.py",
@@ -270,8 +346,307 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "assignments/Lab_6_Multiple_Shape_Sketcher/multipleShapeSketcher.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11043,
+						"regions":
+						{
+							"better_bookmarks":
+							{
+								"flags": 144,
+								"icon": "Packages/Theme - Default/common/bookmark.png",
+								"regions":
+								[
+								],
+								"scope": "string"
+							}
+						},
+						"selection":
+						[
+							[
+								8041,
+								8041
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".>:",
+									"selector": "source.c++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>:",
+									"selector": "source.c - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.cuda-c++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric, meta.interpolated.format.fstring"
+								}
+							],
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3655.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran Python IT121 Lab 6a Multiple Shape Drawer.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2159,
+						"regions":
+						{
+							"better_bookmarks":
+							{
+								"flags": 144,
+								"icon": "Packages/Theme - Default/common/bookmark.png",
+								"regions":
+								[
+								],
+								"scope": "string"
+							}
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 269.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 478,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								431,
+								431
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"auto_indent": false,
+							"default_dir": "/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_6_Multiple_Shape_Sketcher",
+							"detect_indentation": false,
+							"git_gutter_is_enabled": false,
+							"gutter": false,
+							"history_arrows": true,
+							"indent_subsequent_lines": false,
+							"line_numbers": false,
+							"repl": true,
+							"repl_external_id": "python",
+							"repl_id": "56168e7c9c014feca2c77a8f5ddea723",
+							"repl_restart_args":
+							{
+								"cmd":
+								[
+									"python",
+									"-u",
+									"$file_basename"
+								],
+								"cwd": "$file_path",
+								"encoding": "utf8",
+								"extend_env":
+								{
+									"PYTHONIOENCODING": "utf-8"
+								},
+								"external_id": "python",
+								"syntax": "Packages/Python/Python.tmLanguage",
+								"type": "subprocess"
+							},
+							"repl_sublime2": false,
+							"smart_indent": false,
+							"spell_check": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 470,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								449,
+								449
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"auto_indent": false,
+							"default_dir": "/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_6_Multiple_Shape_Sketcher",
+							"detect_indentation": false,
+							"git_gutter_is_enabled": false,
+							"gutter": false,
+							"history_arrows": true,
+							"indent_subsequent_lines": false,
+							"line_numbers": false,
+							"repl": true,
+							"repl_external_id": "python",
+							"repl_id": "2c667708aec24d4bb113f6309686789c",
+							"repl_restart_args":
+							{
+								"cmd":
+								[
+									"python",
+									"-u",
+									"$file_basename"
+								],
+								"cwd": "$file_path",
+								"encoding": "utf8",
+								"extend_env":
+								{
+									"PYTHONIOENCODING": "utf-8"
+								},
+								"external_id": "python",
+								"syntax": "Packages/Python/Python.tmLanguage",
+								"type": "subprocess"
+							},
+							"repl_sublime2": false,
+							"smart_indent": false,
+							"spell_check": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 461,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								287,
+								287
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"auto_indent": false,
+							"default_dir": "/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_6_Multiple_Shape_Sketcher",
+							"detect_indentation": false,
+							"git_gutter_is_enabled": false,
+							"gutter": false,
+							"history_arrows": true,
+							"indent_subsequent_lines": false,
+							"line_numbers": false,
+							"repl": true,
+							"repl_external_id": "python",
+							"repl_id": "408581a7e7f049e9a3dc25f5a16fa7cd",
+							"repl_restart_args":
+							{
+								"cmd":
+								[
+									"python",
+									"-u",
+									"$file_basename"
+								],
+								"cwd": "$file_path",
+								"encoding": "utf8",
+								"extend_env":
+								{
+									"PYTHONIOENCODING": "utf-8"
+								},
+								"external_id": "python",
+								"syntax": "Packages/Python/Python.tmLanguage",
+								"type": "subprocess"
+							},
+							"repl_sublime2": false,
+							"smart_indent": false,
+							"spell_check": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -292,11 +667,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -346,7 +728,7 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "Packages/Python 3/Python3.sublime-build",
+	"pinned_build_system": "Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
 	"project": "IT121_laptop.sublime-project",
 	"replace":
 	{
@@ -388,7 +770,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 166.0,
+	"side_bar_width": 394.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
