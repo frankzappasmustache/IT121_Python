@@ -209,9 +209,10 @@ def draw_shape():
     # the repl fussing about shape not being defined
     shape = 0
 
-    # use a while true loop to loop for an indefinite amount of time until user
-    # calls option number 4 to quit the program
+    # use a while loop to loop to loop through while the shape variable does
+    # not equal 4, so when the user enters 4 to quit the program will exit
     while(shape != 4):
+
         # prompt the user for input to select a shape (stored as int) or exit.
         # Each selection corresponds with it's position in the commands index
         # and is checked in the following if/elif loop, the while condition
@@ -266,6 +267,7 @@ def draw_shape():
                 # required arg vars for the shape
                 COMMANDS[shape](size1, size2, final_pen, final_fill, final_bg)
                 continue
+
         elif shape == 1:
 
             # prompt the user for input to determine the number of times they
