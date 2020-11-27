@@ -202,7 +202,7 @@ def hexagon(size1, final_pen, final_fill, final_bg, angle=60):
 def draw_shape():
 
     # define index of commands that correspond to the different function
-    # defs for our shapes, and the function def to quit the program
+    # defs for our shapes
     COMMANDS = [rect, circle, triangle, hexagon]
 
     # define shape as a var equal to 0 so we can start our while loop without
@@ -228,7 +228,7 @@ def draw_shape():
 
         # use if/elif loop to check if the shape var == int, if so, do code
         # tkinter will throw an error if an invalid selection is made, and
-        # return user to prompt
+        # return user to the prompt they were at
         if shape == 0:
 
             # prompt the user for input to determine the number of times they
@@ -239,11 +239,12 @@ def draw_shape():
 
             # use a for loop to loop through the shape variable prompts for
             # x in range(shapeCount) -- x represents 1 time looping through
-            # the if or elif statement we are currently in, so if they chose
+            # the for loop we are currently in, so if they chose
             # 3, it would loop through the if or elif statement prompts 3
             # times.
             for x in range(shapeCount):
-                # unpack and assign return values from select colors() function
+                # use function call to unpack and assign return values
+                # from select colors() function
                 final_pen, final_fill, final_bg = select_colors()
 
                 # get user input (as int) for size of rect sides, store ints in
@@ -278,11 +279,11 @@ def draw_shape():
 
             # use a for loop to loop through the shape variable prompts for
             # x in range(shapeCount) -- x represents 1 time looping through
-            # the if or elif statement we are currently in, so if they chose
-            # 3, it would loop through the if or elif statement prompts 3
-            # times.
+            # the for loop we are currently in, so if they chose
+            # 3, it would loop through the if or elif statement prompts 3 times.
             for x in range(shapeCount):
-                # unpack and assign return values from select colors() function
+                # use function call to unpack and assign return values
+                # from select colors() function:
                 final_pen, final_fill, final_bg = select_colors()
                 sizeOne = int(screen.numinput('''
                     Please enter a size for the first two sides of your rectangle;\n
@@ -302,10 +303,11 @@ def draw_shape():
 
             # use a for loop to loop through the shape variable prompts for
             # x in range(shapeCount) -- x represents 1 time looping through
-            # the if or elif statement we are currently in, so if they chose
-            # 3, it would loop through the if or elif statement prompts 3
-            # times.
+            # the for loop we are currently in, so if they chose
+            # 3, it would loop through the statement prompts 3 times.
             for x in range(shapeCount):
+                # use function call to unpack and assign return values
+                # from select colors() function:
                 final_pen, final_fill, final_bg = select_colors()
                 sizeOne = int(screen.numinput('''
                     Please enter a size for the first two sides of your rectangle;\n
@@ -325,10 +327,11 @@ def draw_shape():
 
             # use a for loop to loop through the shape variable prompts for
             # x in range(shapeCount) -- x represents 1 time looping through
-            # the if or elif statement we are currently in, so if they chose
-            # 3, it would loop through the if or elif statement prompts 3
-            # times.
+            # the for loop we are currently in, so if they chose
+            # 3, it would loop through the statement prompt 3 times.
             for x in range(shapeCount):
+                # use function call to unpack and assign return values
+                # from select colors() function:
                 final_pen, final_fill, final_bg = select_colors()
                 sizeOne = int(screen.numinput('''
                     Please enter a size for the first two sides of your rectangle;\n
