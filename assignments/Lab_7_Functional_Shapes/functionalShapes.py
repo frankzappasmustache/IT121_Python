@@ -102,6 +102,7 @@ PROMPT3 = '''
         4. 500
         '''
 
+# create numbered text prompt that has options for number of shapes
 PROMPT4 = '''
         1. One
         2. Two
