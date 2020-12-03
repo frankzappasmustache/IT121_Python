@@ -1,7 +1,7 @@
 class Resistance(Employee):
     def __init__(self, side, name, salary, number, rank):
         self.side = side
-        Employee.__init__(self, name, salary, number, rank)
+        Employee.__init__(self, side)
 
     def displayResistance(self):
         self.displayEmployee()
