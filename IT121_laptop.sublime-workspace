@@ -118,10 +118,14 @@
 	"expanded_folders":
 	[
 		"/home/frankzappasmustache/code/courses/IT121_Python",
-		"/home/frankzappasmustache/code/courses/IT121_Python/assignments"
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_7_Functional_Shapes"
 	],
 	"file_history":
 	[
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_7_Functional_Shapes/functionalShapes.py",
+		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran Python IT121 Lab 7 Function Shape Drawer.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_7_Functional_Shapes/functionalShapes.md",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_6_Multiple_Shape_Sketcher/multipleShapeSketcher.py",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_5_Shape_Sketcher_AND_Tax_Calculator/shapeSketcher.py",
 		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran Python IT121 Lab 6a Multiple Shape Drawer.py",
@@ -425,7 +429,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 184.0,
+	"side_bar_width": 304.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
