@@ -7,6 +7,53 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "assignments/Final_Exam/final.py",
+			"settings":
+			{
+				"buffer_size": 1234,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "for i in range(len(x)):\n    plt.figure()\n    plt.plot(x[i],y[i])\n    # Show/save figure as desired.\n    plt.show()",
+			"settings":
+			{
+				"buffer_size": 114,
+				"line_ending": "Unix",
+				"name": "for i in range(len(x)):"
+			}
+		},
+		{
+			"contents": "\"\"\"\n    Project Name: IT121_Python\n    Sub-project: Labs\n    File Name: final.py\n    Author: Dustin McClure\n    Lab: Final Exam\n    Modified Date: 12/03/2020\n\n    Python Final Exam\n\"\"\"\nimport csv\nimport matplotlib.pyplot as plt\nfrom matplotlib.lines import Line2D\n\nprint(\"\\tReading file into list...\\n\")\nstockindex = []\nwith open(\"stockIndex.csv\", \"r\") as csvfile:\n    csvread = csv.reader(csvfile)\n\n    for row in csvread:\n        print(row[0], row[1])\n        stockindex.append(row)\n\nprint(\"\\tThe data in the list...\\n\")\nprint(stockindex)\n\nprint(\"\\tDrawing the data...\\n\")\nx1 = int(0)\ny1 = int(0)\nplt.figure(figsize=(30, 30))\nfor row in stockindex:\n    x = int(row[0])\n    y = int(row[1])\n    if y < y1:\n        plt.plot([x], [y], color='red', linestyle='dashed', label='Index')\n    elif y > y1:\n        plt.plot([x], [y], color='green', linestyle='dashed', label='Index')\n    #plt.subplots_adjust(top=0.972, bottom=0.096, left=0.031, right=0.992, hspace=0.25, wspace=0.25)\n    x1 = int(x)\n    y1 = int(y)\nprint(\"\\tDrawing the graph...\\n\")\nplt.title('Stock Index Plot')\nplt.xlabel('Days')\nplt.ylabel('Stock Index')\nplt.axis([1,30,1,180])\nplt.show()\n",
+			"settings":
+			{
+				"buffer_size": 1151,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\tReading file into list...\n\n1 100\n2 107\n3 120\n4 122\n5 127\n6 140\n7 160\n8 170\n9 50\n10 30\n11 20\n12 10\n13 12\n14 16\n15 18\n16 19\n17 15\n18 22\n19 25\n20 28\n21 33\n22 39\n23 44\n24 36\n25 49\n26 59\n27 88\n28 99\n29 106\n30 121\n\tThe data in the list...\n\n[['1', '100'], ['2', '107'], ['3', '120'], ['4', '122'], ['5', '127'], ['6', '140'], ['7', '160'], ['8', '170'], ['9', '50'], ['10', '30'], ['11', '20'], ['12', '10'], ['13', '12'], ['14', '16'], ['15', '18'], ['16', '19'], ['17', '15'], ['18', '22'], ['19', '25'], ['20', '28'], ['21', '33'], ['22', '39'], ['23', '44'], ['24', '36'], ['25', '49'], ['26', '59'], ['27', '88'], ['28', '99'], ['29', '106'], ['30', '121']]\n\tDrawing the data...\n\n\n(python:152465): Gtk-WARNING **: 19:33:26.825: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name\n\tDrawing the graph...\n\n\n***Repl Closed***\n",
+			"settings":
+			{
+				"buffer_size": 840,
+				"line_ending": "Unix",
+				"name": "*REPL* [python]",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "\tReading file into list...\n\n1 100\n2 107\n3 120\n4 122\n5 127\n6 140\n7 160\n8 170\n9 50\n10 30\n11 20\n12 10\n13 12\n14 16\n15 18\n16 19\n17 15\n18 22\n19 25\n20 28\n21 33\n22 39\n23 44\n24 36\n25 49\n26 59\n27 88\n28 99\n29 106\n30 121\n\tThe data in the list...\n\n[['1', '100'], ['2', '107'], ['3', '120'], ['4', '122'], ['5', '127'], ['6', '140'], ['7', '160'], ['8', '170'], ['9', '50'], ['10', '30'], ['11', '20'], ['12', '10'], ['13', '12'], ['14', '16'], ['15', '18'], ['16', '19'], ['17', '15'], ['18', '22'], ['19', '25'], ['20', '28'], ['21', '33'], ['22', '39'], ['23', '44'], ['24', '36'], ['25', '49'], ['26', '59'], ['27', '88'], ['28', '99'], ['29', '106'], ['30', '121']]\n\tDrawing the data...\n\n\n(python:152592): Gtk-WARNING **: 19:33:47.771: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name\n/home/frankzappasmustache/code/courses/IT121_Python/assignments/Final_Exam/final.py:42: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).\n  plt.figure(figsize=(30, 30))\n\tDrawing the graph...\n\n",
+			"settings":
+			{
+				"buffer_size": 1209,
+				"line_ending": "Unix",
+				"name": "*REPL* [python]",
+				"scratch": true
+			}
+		}
 	],
 	"build_system": "Packages/MagicPython/settings/sublime/Python.sublime-build",
 	"build_system_choices":
@@ -117,21 +164,27 @@
 	},
 	"expanded_folders":
 	[
-		"/home/frankzappasmustache/code/courses/IT121_Python"
+		"/home/frankzappasmustache/code/courses/IT121_Python",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Final_Exam"
 	],
 	"file_history":
 	[
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Final_Exam/stockIndex.csv",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Final_Exam/final.py",
-		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Final_Exam/final.md",
-		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_8_Employee_Classes/spaceBalls.py",
-		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_8_Employee_Classes/firstOrder.py",
+		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran Python IT121 Lab FINAL EXAM File IO.py",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_8_Employee_Classes/resistance.py",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_8_Employee_Classes/jedi.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_8_Employee_Classes/firstOrder.py",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_8_Employee_Classes/employee.py",
-		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran Python IT121 Lab 8 Employee Classes.py",
-		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_8_Employee_Classes/employeeClasses.md",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_8_Employee_Classes/__pycache__/employee.cpython-39.pyc",
+		"/home/frankzappasmustache/Documents/fedora_33_upgrade_broken_packages.txt",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Final_Exam/final.md",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_7_Functional_Shapes/functionalShapes.py",
 		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran Python IT121 Lab 7 Function Shape Drawer.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_8_Employee_Classes/spaceBalls.py",
+		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran Python IT121 Lab 8 Employee Classes.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_8_Employee_Classes/employeeClasses.md",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_7_Functional_Shapes/functionalShapes.md",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_6_Multiple_Shape_Sketcher/multipleShapeSketcher.py",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_5_Shape_Sketcher_AND_Tax_Calculator/shapeSketcher.py",
@@ -260,7 +313,7 @@
 			"'"
 		],
 		"highlight": true,
-		"in_selection": true,
+		"in_selection": false,
 		"preserve_case": false,
 		"regex": true,
 		"replace_history":
@@ -306,13 +359,264 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "assignments/Final_Exam/final.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1234,
+						"regions":
+						{
+							"better_bookmarks":
+							{
+								"flags": 144,
+								"icon": "Packages/Theme - Default/common/bookmark.png",
+								"regions":
+								[
+								],
+								"scope": "string"
+							}
+						},
+						"selection":
+						[
+							[
+								586,
+								586
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".>:",
+									"selector": "source.c++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>:",
+									"selector": "source.c - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.cuda-c++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric, meta.interpolated.format.fstring"
+								}
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 117.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 114,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57,
+								57
+							]
+						],
+						"settings":
+						{
+							"auto_name": "for i in range(len(x)):",
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								880,
+								880
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/home/frankzappasmustache/code/courses/IT121_Python/assignments/Final_Exam",
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 840,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								840,
+								840
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"auto_indent": false,
+							"default_dir": "/home/frankzappasmustache/code/courses/IT121_Python/assignments/Final_Exam",
+							"detect_indentation": false,
+							"git_gutter_is_enabled": false,
+							"gutter": false,
+							"history_arrows": true,
+							"indent_subsequent_lines": false,
+							"line_numbers": false,
+							"repl": true,
+							"repl_external_id": "python",
+							"repl_id": "1b74501f23a74ecfa6130ab3f74fbf4f",
+							"repl_restart_args":
+							{
+								"cmd":
+								[
+									"python",
+									"-u",
+									"$file_basename"
+								],
+								"cwd": "$file_path",
+								"encoding": "utf8",
+								"extend_env":
+								{
+									"PYTHONIOENCODING": "utf-8"
+								},
+								"external_id": "python",
+								"syntax": "Packages/Python/Python.tmLanguage",
+								"type": "subprocess"
+							},
+							"repl_sublime2": false,
+							"smart_indent": false,
+							"spell_check": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1209,
+								1209
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"auto_indent": false,
+							"default_dir": "/home/frankzappasmustache/code/courses/IT121_Python/assignments/Final_Exam",
+							"detect_indentation": false,
+							"git_gutter_is_enabled": false,
+							"gutter": false,
+							"history_arrows": true,
+							"indent_subsequent_lines": false,
+							"line_numbers": false,
+							"repl": true,
+							"repl_external_id": "python",
+							"repl_id": "fb1fcf979c1c41828917014e56900dcd",
+							"repl_restart_args":
+							{
+								"cmd":
+								[
+									"python",
+									"-u",
+									"$file_basename"
+								],
+								"cwd": "$file_path",
+								"encoding": "utf8",
+								"extend_env":
+								{
+									"PYTHONIOENCODING": "utf-8"
+								},
+								"external_id": "python",
+								"syntax": "Packages/Python/Python.tmLanguage",
+								"type": "subprocess"
+							},
+							"repl_sublime2": false,
+							"smart_indent": false,
+							"spell_check": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -428,7 +732,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
@@ -436,7 +740,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 304.0,
+	"side_bar_width": 546.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
