@@ -53,12 +53,12 @@ Sincerely,
 # additional newline
 print(total_asshole + '\n')
 print("=====================================================================\n")
-# assign response value of fuck.off_with action to var fuck_goto_shaming
-fuck_goto_shaming = fuck.off_with(behavior="that strict programming dogma.", from_="Dustin").text
+# assign response value of fuck.off_with action to var fuck_array_shaming
+fuck_array_shaming = fuck.off_with(behavior="that strict programming dogma.", from_="Dustin").text
 
-# print the string stored in var fuck_goto_shaming and add an
+# print the string stored in var fuck_array_shaming and add an
 # additional newline
-print(fuck_goto_shaming + '\n')
+print(fuck_array_shaming + '\n')
 print("=====================================================================\n")
 
 # assign response value of fuck.caniuse action to var big_fucking_hammer
